@@ -11,4 +11,4 @@ const mapProjectFromApiToVm = (
 export const mapProjectListFromApiToVm = (
   projectList: apiModel.Project[]
 ): viewModel.Project[] =>
-  mapToCollection(projectList, p => mapProjectFromApiToVm(p));
+  mapToCollection(projectList, (p) => mapProjectFromApiToVm(p));

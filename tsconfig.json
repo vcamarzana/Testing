@@ -9,8 +9,8 @@
     "jsx": "react",
     "noLib": false,
     "allowJs": true,
-    "suppressImplicitAnyIndexErrors": true,
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "baseUrl": "./src/",
     "paths": {
