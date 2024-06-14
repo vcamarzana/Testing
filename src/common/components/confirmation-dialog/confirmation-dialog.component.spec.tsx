@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import { ConfirmationDialogComponent } from './confirmation-dialog.component';
 import userEvent from '@testing-library/user-event';
 
-describe('ConfirmationDialogComponent', () => {
+describe('ConfirmationDialogComponent specs', () => {
   const props = {
     isOpen: true,
     onAccept: jest.fn(),
@@ -15,10 +15,6 @@ describe('ConfirmationDialogComponent', () => {
     },
     children: 'test children',
   };
-
-  // afterEach(() => {
-  //   jest.clearAllMocks();
-  // });
 
   it('should not render if isOpen is false', () => {
     //Arrange
