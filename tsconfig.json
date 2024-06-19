@@ -22,5 +22,10 @@
       "scenes": ["scenes"]
     }
   },
-  "include": ["./src/**/*", "./config/test/setup.ts", "./global.types.d.ts"]
+  "include": [
+    "./src/**/*",
+    "./config/test/setup.ts",
+    "./global.types.d.ts",
+    "src/pods/employee-list/employee-list.mappers.spec.ts"
+  ]
 }
