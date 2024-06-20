@@ -1,4 +1,4 @@
-describe('LoginScene specs', () => {
+describe('Login Scene specs', () => {
   beforeEach(() => {
     cy.visit('/');
   });
