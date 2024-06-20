@@ -10,8 +10,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Install
         run: npm ci
-      - name: Install Cypress
-        run: npm install cypress
       - name: Tests
         run: npm test
       - name: Tests e2e
