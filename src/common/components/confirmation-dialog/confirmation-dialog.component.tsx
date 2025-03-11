@@ -21,9 +21,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const ConfirmationDialogComponent: React.FunctionComponent<Props> = (
-  props
-) => {
+export const ConfirmationDialogComponent: React.FC<Props> = (props) => {
   const { isOpen, onAccept, onClose, title, labels, children } = props;
 
   const handleAccept = () => {
